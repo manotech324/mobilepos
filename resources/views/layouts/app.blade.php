@@ -45,28 +45,28 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('assets/js/jquery-3.7.1.min.js') }}"></script>
-    <script src="{{ asset('assets/js/feather.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.slimscroll.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/js/dataTables.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/select2/js/select2.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/summernote/summernote-bs4.min.js') }}"></script>
-    <script src="{{ asset('assets/js/moment.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap-datetimepicker.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js') }}"></script>
-    <script src="{{ asset('assets/plugins/@simonwep/pickr/pickr.es5.min.js') }}"></script>
-    <script src="{{ asset('assets/js/theme-colorpicker.js') }}"></script>
-    <script src="{{ asset('assets/js/script.js') }}"></script>
-    <script src="{{ asset('assets/plugins/apexchart/apexcharts.min.js') }}" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
-	<script src="{{ asset('assets/plugins/apexchart/chart-data.js') }}" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/feather.min.js"></script>
+    <script src="/assets/js/jquery.slimscroll.min.js"></script>
+    <script src="/assets/js/jquery.dataTables.min.js"></script>
+    <script src="/assets/js/dataTables.bootstrap5.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/plugins/select2/js/select2.min.js"></script>
+    <script src="/assets/plugins/summernote/summernote-bs4.min.js"></script>
+    <script src="/assets/js/moment.min.js"></script>
+    <script src="/assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+    <script src="/assets/plugins/@simonwep/pickr/pickr.es5.min.js"></script>
+    <script src="/assets/js/theme-colorpicker.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/plugins/apexchart/apexcharts.min.js" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
+	<script src="/assets/plugins/apexchart/chart-data.js" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
 
     <script src="{{ asset('assets/js/theme-script.js') }}"></script>
     
     <!-- Remove or replace these with your actual analytics scripts -->
     <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5e909a4b5c8ffb1777e93972-|49" defer></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"></script>
+    <script defer src="/assets/js/beacon.js"></script>
 
     @stack('scripts')
 </body>
