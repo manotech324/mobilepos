@@ -19,8 +19,13 @@ Route::prefix("auth")->group(function () {
 });
 
 
-Route::get("/dashboard", function () {
-    return view("pages.index");
-})->middleware('auth')->name('dashboard');
+Route::prefix("dashboard")->group(function () {
+    Route::get('', function () {
+        return view('pages.index');
+    });
+    Route::get('supplier', function () {
+        return "Supplier pages";
+    });
+})->middleware(['auth']);
 
 
