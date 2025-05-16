@@ -147,10 +147,10 @@
 							<h6 class="submenu-hdr">Inventory</h6>
 							<ul>
 								<li class="{{ request()->routeIs('product.index') ? 'active' : '' }}">
-									<a href="{{ route('product.index') }}"><i data-feather="box"></i><span>Products</span></a>
+									<a href=""><i data-feather="box"></i><span>Products</span></a>
 								</li>
 								<li class="{{ request()->routeIs('product.create') ? 'active' : '' }}">
-									<a href="{{ route('product.create') }}"><i class="ti ti-table-plus fs-16 me-2"></i><span>Create Product</span></a>
+									<a href=""><i class="ti ti-table-plus fs-16 me-2"></i><span>Create Product</span></a>
 								</li>
 								<li class="{{ request()->routeIs('expired.products') ? 'active' : '' }}">
 									<a href=""><i class="ti ti-progress-alert fs-16 me-2"></i><span>Expired Products</span></a>
@@ -159,19 +159,19 @@
 									<a href=""><i class="ti ti-trending-up-2 fs-16 me-2"></i><span>Low Stocks</span></a>
 								</li>
 								<li class="{{ request()->routeIs('category.index') ? 'active' : '' }}">
-									<a href="{{ route('category.index') }}"><i class="ti ti-list-details fs-16 me-2"></i><span>Category</span></a>
+									<a href=""><i class="ti ti-list-details fs-16 me-2"></i><span>Category</span></a>
 								</li>
 								<li class="{{ request()->routeIs('subcategory.index') ? 'active' : '' }}">
-									<a href="{{ route('subcategory.index') }}"><i class="ti ti-carousel-vertical fs-16 me-2"></i><span>Sub Category</span></a>
+									<a href=""><i class="ti ti-carousel-vertical fs-16 me-2"></i><span>Sub Category</span></a>
 								</li>
 								<li class="{{ request()->routeIs('brand.index') ? 'active' : '' }}">
-									<a href="{{ route('brand.index') }}"><i class="ti ti-triangles fs-16 me-2"></i><span>Brands</span></a>
+									<a href=""><i class="ti ti-triangles fs-16 me-2"></i><span>Brands</span></a>
 								</li>
 								<li class="{{ request()->routeIs('unit.index') ? 'active' : '' }}">
-									<a href="{{ route('unit.index')  }}"><i class="ti ti-brand-unity fs-16 me-2"></i><span>Units</span></a>
+									<a href=""><i class="ti ti-brand-unity fs-16 me-2"></i><span>Units</span></a>
 								</li>
 								<li class="{{ request()->routeIs('variant.index') ? 'active' : '' }}">
-									<a href="{{ route('variant.index') }}"><i class="ti ti-checklist fs-16 me-2"></i><span>Variant Attributes</span></a>
+									<a href=""><i class="ti ti-checklist fs-16 me-2"></i><span>Variant Attributes</span></a>
 								</li>
 								<li class="{{ request()->routeIs('warranties.index') ? 'active' : '' }}">
 									<a href=""><i class="ti ti-certificate fs-16 me-2"></i><span>Warranties</span></a>
@@ -271,8 +271,8 @@
 								<li><a href="customers.html"><i class="ti ti-users-group fs-16 me-2"></i><span>Customers</span></a></li>
 								<li><a href="billers.html"><i class="ti ti-user-up fs-16 me-2"></i><span>Billers</span></a></li>
 								<li><a href="suppliers.html"><i class="ti ti-user-dollar fs-16 me-2"></i><span>Suppliers</span></a></li>
-								<li><a href="{{ route('store.index') }}"><i class="ti ti-home-bolt fs-16 me-2"></i><span>Stores</span></a></li>
-								<li><a href="{{ route('warehouse.index') }}"><i class="ti ti-archive fs-16 me-2"></i><span>Warehouses</span></a>
+								<li><a href=""><i class="ti ti-home-bolt fs-16 me-2"></i><span>Stores</span></a></li>
+								<li><a href=""><i class="ti ti-archive fs-16 me-2"></i><span>Warehouses</span></a>
 								</li>
 							</ul>
 						</li>
@@ -805,7 +805,7 @@
 								</span> <span class="menu-arrow"></span></a>
 							<ul>
 								<li><a href="product-list.html"><span>Products</span></a></li>
-								<li><a href="{{ route('product.create') }}" class="active"><span>Create Product</span></a></li>
+								<li><a href="" class="active"><span>Create Product</span></a></li>
 								<li><a href="expired-products.html"><span>Expired Products</span></a></li>
 								<li><a href="low-stocks.html"><span>Low Stocks</span></a></li>
 								<li><a href="category-list.html"><span>Category</span></a></li>
@@ -1479,7 +1479,7 @@
 								<ul>
 									<li class="menu-title"><span>Inventory</span></li>
 									<li><a href="product-list.html"><span>Products</span></a></li>
-									<li><a href="{{ route('product.create') }}" class="active"><span>Create Product</span></a></li>
+									<li><a href="" class="active"><span>Create Product</span></a></li>
 									<li><a href="expired-products.html"><span>Expired Products</span></a></li>
 									<li><a href="low-stocks.html"><span>Low Stocks</span></a></li>
 									<li><a href="category-list.html"><span>Category</span></a></li>

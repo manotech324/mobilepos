@@ -2,12 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\View\View as ViewView;
-use Illuminate\Http\Request;
+use App\Http\Requests\RegisterUserRequest;
+use App\Models\User;
 
 class RegisterUserController extends Controller
 {
-    function index() {
-        return view('pages.register');
+    public function index()
+    {
+        return view('pages.auth.register');
+    }
+    public function store(RegisterUserRequest $req)
+    {
+        $data = $req->validated();
+        $user = User::create($data);
+        return redirect(route("login"))->with("register", true);
     }
 }
