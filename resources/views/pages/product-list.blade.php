@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from dreamspos.dreamstechnologies.com/html/template/suppliers.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 04:23:48 GMT -->
+<!-- Mirrored from dreamspos.dreamstechnologies.com/html/template/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 05:43:49 GMT -->
 <head>
 
 		<!-- Meta Tags -->
@@ -14,50 +14,56 @@
 		<meta name="robots" content="index, follow">
 		<title>Dreams POS - Inventory Management & Admin Dashboard Template</title>
 		
-		<script src="assets/js/theme-script.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<script src="/assets/js/theme-script.js" ></script>
 
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.png">
 
 		<!-- Apple Touch Icon -->
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 		
+		<!-- Datetimepicker CSS -->
+		<link rel="stylesheet" href="/assets/css/bootstrap-datetimepicker.min.css">
+
 		<!-- animation CSS -->
-        <link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="/assets/css/animate.css">
+
+		<!-- Feathericon CSS -->
+		<link rel="stylesheet" href="/assets/css/feather.css">
 
 		<!-- Select2 CSS -->
-		<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+		<link rel="stylesheet" href="/assets/plugins/select2/css/select2.min.css">
+
+		<!-- Summernote CSS -->
+		<link rel="stylesheet" href="/assets/plugins/summernote/summernote-bs4.min.css">
+
+		<!-- Bootstrap Tagsinput CSS -->
+		<link rel="stylesheet" href="/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
+
+	   	<!-- Tabler Icon CSS -->
+	    <link rel="stylesheet" href="/assets/plugins/tabler-icons/tabler-icons.css">
 
 		<!-- Datatable CSS -->
-		<link rel="stylesheet" href="assets/css/dataTables.bootstrap5.min.css">
+		<link rel="stylesheet" href="/assets/css/dataTables.bootstrap5.min.css">
 
-		<!-- Datetimepicker CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
-		
-        <!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-
-		<!-- Tabler Icon CSS -->
-		<link rel="stylesheet" href="assets/plugins/tabler-icons/tabler-icons.css">
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="/assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
 		
 		<!-- Color Picker Css -->
-	<link rel="stylesheet" href="assets/plugins/%40simonwep/pickr/themes/nano.min.css">
+	<link rel="stylesheet" href="/assets/plugins/%40simonwep/pickr/themes/nano.min.css">
 
 	    <!-- Main CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
 		
     </head>
     <body>
-		
 		<div id="global-loader" >
 			<div class="whirly-loader"> </div>
 		</div>
-	
-		 
 		<!-- Main Wrapper -->
         <div class="main-wrapper">
 			
@@ -68,13 +74,13 @@
 				<!-- Logo -->
 				<div class="header-left active">
 					<a href="index.html" class="logo logo-normal">
-						<img src="assets/img/logo.svg" alt="Img">
+						<img src="/assets/img/logo.svg" alt="Img">
 					</a>
 					<a href="index.html" class="logo logo-white">
-						<img src="assets/img/logo-white.svg" alt="Img">
+						<img src="/assets/img/logo-white.svg" alt="Img">
 					</a>
 					<a href="index.html" class="logo-small">
-						<img src="assets/img/logo-small.png" alt="Img">
+						<img src="/assets/img/logo-small.png" alt="Img">
 					</a>
 				</div>
 				<!-- /Logo -->
@@ -103,7 +109,7 @@
 										<span><i class="ti ti-search"></i></span>
 									</div>
 									<span class="input-group-text">
-										<kbd class="d-flex align-items-center"><img src="assets/img/icons/command.svg" alt="img" class="me-1">K</kbd>
+										<kbd class="d-flex align-items-center"><img src="/assets/img/icons/command.svg" alt="img" class="me-1">K</kbd>
 									</span>
 								</div>
 								<div class="dropdown-menu search-dropdown" aria-labelledby="dropdownMenuClickable">
@@ -124,9 +130,9 @@
 									<div class="search-info">
 										<h6><span><i data-feather="user" class="feather-16"></i></span>Customers</h6>
 										<ul class="customers">
-											<li><a href="javascript:void(0);">Aron Varu<img src="assets/img/profiles/avator1.jpg" alt="Img" class="img-fluid"></a></li>
-											<li><a href="javascript:void(0);">Jonita<img src="assets/img/profiles/avatar-01.jpg" alt="Img" class="img-fluid"></a></li>
-											<li><a href="javascript:void(0);">Aaron<img src="assets/img/profiles/avatar-10.jpg" alt="Img" class="img-fluid"></a></li>
+											<li><a href="javascript:void(0);">Aron Varu<img src="/assets/img/profiles/avator1.jpg" alt="Img" class="img-fluid"></a></li>
+											<li><a href="javascript:void(0);">Jonita<img src="/assets/img/profiles/avatar-01.jpg" alt="Img" class="img-fluid"></a></li>
+											<li><a href="javascript:void(0);">Aaron<img src="/assets/img/profiles/avatar-10.jpg" alt="Img" class="img-fluid"></a></li>
 										</ul>
 									</div>
 								</div>
@@ -141,7 +147,7 @@
 							data-bs-toggle="dropdown">
 							<span class="user-info">
 								<span class="user-letter">
-									<img src="assets/img/store/store-01.png" alt="Store Logo" class="img-fluid">
+									<img src="/assets/img/store/store-01.png" alt="Store Logo" class="img-fluid">
 								</span>
 								<span class="user-detail">
 									<span class="user-name">Freshmart</span>
@@ -150,16 +156,16 @@
 						</a>
 						<div class="dropdown-menu dropdown-menu-right">
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/store/store-01.png" alt="Store Logo" class="img-fluid">Freshmart
+								<img src="/assets/img/store/store-01.png" alt="Store Logo" class="img-fluid">Freshmart
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/store/store-02.png" alt="Store Logo" class="img-fluid">Grocery Apex
+								<img src="/assets/img/store/store-02.png" alt="Store Logo" class="img-fluid">Grocery Apex
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/store/store-03.png" alt="Store Logo" class="img-fluid">Grocery Bevy
+								<img src="/assets/img/store/store-03.png" alt="Store Logo" class="img-fluid">Grocery Bevy
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/store/store-04.png" alt="Store Logo" class="img-fluid">Grocery Eden
+								<img src="/assets/img/store/store-04.png" alt="Store Logo" class="img-fluid">Grocery Eden
 							</a>
 						</div>
 					</li>
@@ -281,14 +287,14 @@
 					<li class="nav-item dropdown has-arrow flag-nav nav-item-box">
 						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="javascript:void(0);"
 							role="button">
-							<img src="assets/img/flags/us-flag.svg" alt="Language" class="img-fluid">
+							<img src="/assets/img/flags/us-flag.svg" alt="Language" class="img-fluid">
 						</a>
 						<div class="dropdown-menu dropdown-menu-right">
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/english.svg" alt="Img" height="16">English
+								<img src="/assets/img/flags/english.svg" alt="Img" height="16">English
 							</a>
 							<a href="javascript:void(0);" class="dropdown-item">
-								<img src="assets/img/flags/arabic.svg" alt="Img" height="16">Arabic
+								<img src="/assets/img/flags/arabic.svg" alt="Img" height="16">Arabic
 							</a>
 						</div>
 					</li>
@@ -321,7 +327,7 @@
 										<a href="activities.html">
 											<div class="media d-flex">
 												<span class="avatar flex-shrink-0">
-													<img alt="Img" src="assets/img/profiles/avatar-13.jpg">
+													<img alt="Img" src="/assets/img/profiles/avatar-13.jpg">
 												</span>
 												<div class="flex-grow-1">
 													<p class="noti-details"><span class="noti-title">James Kirwin</span> confirmed his order.  Order No: #78901.Estimated delivery: 2 days</p>
@@ -334,7 +340,7 @@
 										<a href="activities.html">
 											<div class="media d-flex">
 												<span class="avatar flex-shrink-0">
-													<img alt="Img" src="assets/img/profiles/avatar-03.jpg">
+													<img alt="Img" src="/assets/img/profiles/avatar-03.jpg">
 												</span>
 												<div class="flex-grow-1">
 													<p class="noti-details"><span class="noti-title">Leo Kelly</span> cancelled his order scheduled for  17 Jan 2025</p>
@@ -347,7 +353,7 @@
 										<a href="activities.html" class="recent-msg">
 											<div class="media d-flex">
 												<span class="avatar flex-shrink-0">
-													<img alt="Img" src="assets/img/profiles/avatar-17.jpg">
+													<img alt="Img" src="/assets/img/profiles/avatar-17.jpg">
 												</span>
 												<div class="flex-grow-1">
 													<p class="noti-details">Payment of $50 received for Order #67890 from <span class="noti-title">Antonio Engle</span></p>
@@ -360,7 +366,7 @@
 										<a href="activities.html" class="recent-msg">
 											<div class="media d-flex">
 												<span class="avatar flex-shrink-0">
-													<img alt="Img" src="assets/img/profiles/avatar-02.jpg">
+													<img alt="Img" src="/assets/img/profiles/avatar-02.jpg">
 												</span>
 												<div class="flex-grow-1">
 													<p class="noti-details"><span class="noti-title">Andrea</span> confirmed his order.  Order No: #73401.Estimated delivery: 3 days</p>
@@ -386,14 +392,14 @@
 						<a href="javascript:void(0);" class="nav-link userset" data-bs-toggle="dropdown">
 							<span class="user-info p-0">
 								<span class="user-letter">
-									<img src="assets/img/profiles/avator1.jpg" alt="Img" class="img-fluid">
+									<img src="/assets/img/profiles/avator1.jpg" alt="Img" class="img-fluid">
 								</span>
 							</span>
 						</a>
 						<div class="dropdown-menu menu-drop-user">
 							<div class="profileset d-flex align-items-center">
 								<span class="user-img me-2">
-									<img src="assets/img/profiles/avator1.jpg" alt="Img">
+									<img src="/assets/img/profiles/avator1.jpg" alt="Img">
 								</span>
 								<div>
 									<h6 class="fw-medium">John Smilga</h6>
@@ -430,13 +436,13 @@
 			<!-- Logo -->
 			<div class="sidebar-logo">
 				<a href="index.html" class="logo logo-normal">
-					<img src="assets/img/logo.svg" alt="Img">
+					<img src="/assets/img/logo.svg" alt="Img">
 				</a>
 				<a href="index.html" class="logo logo-white">
-					<img src="assets/img/logo-white.svg" alt="Img">
+					<img src="/assets/img/logo-white.svg" alt="Img">
 				</a>
 				<a href="index.html" class="logo-small">
-					<img src="assets/img/logo-small.png" alt="Img">
+					<img src="/assets/img/logo-small.png" alt="Img">
 				</a>
 				<a id="toggle_btn" href="javascript:void(0);">
 					<i data-feather="chevrons-left" class="feather-16"></i>
@@ -446,7 +452,7 @@
 			<div class="modern-profile p-3 pb-0">
 				<div class="text-center rounded bg-light p-3 mb-4 user-profile">
 					<div class="avatar avatar-lg online mb-3">
-						<img src="assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
+						<img src="/assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
 					</div>
 					<h6 class="fs-14 fw-bold mb-1">Adrian Herman</h6>
 					<p class="fs-12 mb-0">System Admin</p>
@@ -462,7 +468,7 @@
 			<div class="sidebar-header p-3 pb-0 pt-2">
 				<div class="text-center rounded bg-light p-2 mb-4 sidebar-profile d-flex align-items-center">
 					<div class="avatar avatar-md onlin">
-						<img src="assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
+						<img src="/assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
 					</div>
 					<div class="text-start sidebar-profile-info ms-2">
 						<h6 class="fs-14 fw-bold mb-1">Adrian Herman</h6>
@@ -573,7 +579,7 @@
 						<li class="submenu-open">
 							<h6 class="submenu-hdr">Inventory</h6>
 							<ul>
-								<li><a href="product-list.html"><i data-feather="box"></i><span>Products</span></a></li>
+								<li class="active"><a href="product-list.html"><i data-feather="box"></i><span>Products</span></a></li>
 								<li><a href="add-product.html"><i class="ti ti-table-plus fs-16 me-2"></i><span>Create Product</span></a></li>
 								<li><a href="expired-products.html"><i class="ti ti-progress-alert fs-16 me-2"></i><span>Expired Products</span></a></li>
 								<li><a href="low-stocks.html"><i class="ti ti-trending-up-2 fs-16 me-2"></i><span>Low Stocks</span></a></li>
@@ -673,9 +679,9 @@
 							<ul>
 								<li><a href="customers.html"><i class="ti ti-users-group fs-16 me-2"></i><span>Customers</span></a></li>
 								<li><a href="billers.html"><i class="ti ti-user-up fs-16 me-2"></i><span>Billers</span></a></li>
-								<li class="active"><a href="suppliers.html"><i class="ti ti-user-dollar fs-16 me-2"></i><span>Suppliers</span></a></li>
+								<li><a href="suppliers.html"><i class="ti ti-user-dollar fs-16 me-2"></i><span>Suppliers</span></a></li>
 								<li><a href="store-list.html"><i class="ti ti-home-bolt fs-16 me-2"></i><span>Stores</span></a></li>
-								<li ><a href="warehouse.html"><i class="ti ti-archive fs-16 me-2"></i><span>Warehouses</span></a>
+								<li><a href="warehouse.html"><i class="ti ti-archive fs-16 me-2"></i><span>Warehouses</span></a>
 								</li>
 							</ul>
 						</li>
@@ -893,7 +899,7 @@
 										<li><a href="localization-settings.html">Localization</a></li>
 										<li><a href="prefixes.html">Prefixes</a></li>
 										<li><a href="preference.html">Preference</a></li>
-										<li><a href="appearance.html" >Appearance</a></li>
+										<li><a href="appearance.html">Appearance</a></li>
 										<li><a href="social-authentication.html">Social Authentication</a></li>
 										<li><a href="language-settings.html">Language</a></li>
 									</ul>
@@ -1174,7 +1180,7 @@
 										<li><a href="notes.html">Notes</a></li>
 										<li><a href="file-manager.html">File Manager</a></li>
 										<li><a href="projects.html">Projects</a></li>
-										<li class="submenu submenu-two"><a href="javascript:void(0);" class="subdrop active">Ecommerce<span class="menu-arrow inside-submenu"></span></a>
+										<li class="submenu submenu-two"><a href="javascript:void(0);">Ecommerce<span class="menu-arrow inside-submenu"></span></a>
 											<ul>
 												<li><a href="products.html">Products</a></li>
 												<li><a href="orders.html">Orders</a></li>
@@ -1207,7 +1213,7 @@
 							<a href="javascript:void(0);"><i class="ti ti-brand-unity fs-16 me-2"></i><span> Inventory
 								</span> <span class="menu-arrow"></span></a>
 							<ul>
-								<li><a href="product-list.html"><span>Products</span></a></li>
+								<li class="active"><a href="product-list.html"><span>Products</span></a></li>
 								<li><a href="add-product.html"><span>Create Product</span></a></li>
 								<li><a href="expired-products.html"><span>Expired Products</span></a></li>
 								<li><a href="low-stocks.html"><span>Low Stocks</span></a></li>
@@ -1627,7 +1633,7 @@
 										<li><a href="localization-settings.html">Localization</a></li>
 										<li><a href="prefixes.html">Prefixes</a></li>
 										<li><a href="preference.html">Preference</a></li>
-										<li><a href="appearance.html" >Appearance</a></li>
+										<li><a href="appearance.html">Appearance</a></li>
 										<li><a href="social-authentication.html">Social Authentication</a></li>
 										<li><a href="language-settings.html">Language</a></li>
 									</ul>
@@ -1687,14 +1693,14 @@
 							</ul>
 						</li>
 						<li class="submenu">
-							<a href="javascript:void(0);" class="active"><i class="ti ti-circle-plus fs-16 me-2"></i><span>More</span><span class="menu-arrow"></span></a>
+							<a href="javascript:void(0);"><i class="ti ti-circle-plus fs-16 me-2"></i><span>More</span><span class="menu-arrow"></span></a>
 							<ul>
 								<li class="submenu">
-									<a href="javascript:void(0);" class="active"><span>People</span><span class="menu-arrow"></span></a>
+									<a href="javascript:void(0);"><span>People</span><span class="menu-arrow"></span></a>
 									<ul>
 										<li><a href="customers.html"><span>Customers</span></a></li>
 										<li><a href="billers.html"><span>Billers</span></a></li>
-										<li><a href="suppliers.html" class="active"><span>Suppliers</span></a></li>
+										<li><a href="suppliers.html"><span>Suppliers</span></a></li>
 										<li><a href="store-list.html"><span>Stores</span></a></li>
 										<li><a href="warehouse.html"><span>Warehouses</span></a>
 										</li>
@@ -1747,19 +1753,19 @@
 					<div class="sidebar-left slimscroll">
 						<div class="nav flex-column align-items-center nav-pills" id="sidebar-tabs" role="tablist"
 							aria-orientation="vertical">
-							<a href="#" class="nav-link" title="Dashboard" data-bs-toggle="tab" data-bs-target="#dashboard">
+							<a href="#" class="nav-link " title="Dashboard" data-bs-toggle="tab" data-bs-target="#dashboard">
 								<i class="ti ti-smart-home"></i>
 							</a>
 							<a href="#" class="nav-link " title="Super Admin" data-bs-toggle="tab" data-bs-target="#super-admin">
 								<i class="ti ti-user-star"></i>
 							</a>
-							<a href="#" class="nav-link" title="Apps" data-bs-toggle="tab" data-bs-target="#application">
+							<a href="#" class="nav-link " title="Apps" data-bs-toggle="tab" data-bs-target="#application">
 								<i class="ti ti-layout-grid-add"></i>
 							</a>
 							<a href="#" class="nav-link" title="Layout" data-bs-toggle="tab" data-bs-target="#layout">
 								<i class="ti ti-layout-board-split"></i>
 							</a>
-							<a href="#" class="nav-link" title="Inventory" data-bs-toggle="tab" data-bs-target="#inventory">
+							<a href="#" class="nav-link active" title="Inventory" data-bs-toggle="tab" data-bs-target="#inventory">
 								<i class="ti ti-table-plus"></i>
 							</a>
 							<a href="#" class="nav-link" title="Stock" data-bs-toggle="tab" data-bs-target="#stock">
@@ -1768,7 +1774,7 @@
 							<a href="#" class="nav-link" title="Sales" data-bs-toggle="tab" data-bs-target="#sales">
 								<i class="ti ti-device-laptop"></i>
 							</a>
-							<a href="#" class="nav-link active" title="Finance" data-bs-toggle="tab" data-bs-target="#finance">
+							<a href="#" class="nav-link" title="Finance" data-bs-toggle="tab" data-bs-target="#finance">
 								<i class="ti ti-shopping-cart-dollar"></i>
 							</a>
 							<a href="#" class="nav-link" title="Hrm" data-bs-toggle="tab" data-bs-target="#hrm">
@@ -1796,20 +1802,20 @@
 					<!-- Logo -->
 					<div class="sidebar-logo">
 						<a href="index.html" class="logo logo-normal">
-							<img src="assets/img/logo.svg" alt="Img">
+							<img src="/assets/img/logo.svg" alt="Img">
 						</a>
 						<a href="index.html" class="logo logo-white">
-							<img src="assets/img/logo-white.svg" alt="Img">
+							<img src="/assets/img/logo-white.svg" alt="Img">
 						</a>
 						<a href="index.html" class="logo-small">
-							<img src="assets/img/logo-small.png" alt="Img">
+							<img src="/assets/img/logo-small.png" alt="Img">
 						</a>
 					</div>
 					<!-- /Logo -->
 					<div class="sidebar-scroll">
 						<div class="text-center rounded bg-light p-3 mb-3 border">
 							<div class="avatar avatar-lg online mb-3">
-								<img src="assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
+								<img src="/assets/img/customer/customer15.jpg" alt="Img" class="img-fluid rounded-circle">
 							</div>
 							<h6 class="fs-14 fw-bold mb-1">Adrian Herman</h6>
 							<p class="fs-12 mb-0">System Admin</p>
@@ -1878,10 +1884,10 @@
 									<li><a href="layout-dark.html">Dark</a></li>
 								</ul>
 							</div>
-							<div class="tab-pane fade" id="inventory">
+							<div class="tab-pane fade show active" id="inventory">
 								<ul>
 									<li class="menu-title"><span>Inventory</span></li>
-									<li><a href="product-list.html"><span>Products</span></a></li>
+									<li><a href="product-list.html" class="active"><span>Products</span></a></li>
 									<li><a href="add-product.html"><span>Create Product</span></a></li>
 									<li><a href="expired-products.html"><span>Expired Products</span></a></li>
 									<li><a href="low-stocks.html"><span>Low Stocks</span></a></li>
@@ -1928,7 +1934,7 @@
 									</li>
 								</ul>
 							</div>
-							<div class="tab-pane fade show active" id="finance">
+							<div class="tab-pane fade" id="finance">
 								<ul>
 									<li class="menu-title"><span>FINANCE & ACCOUNTS</span></li>
 									<li><a href="coupons.html"><span>Coupons</span></a></li>
@@ -1965,7 +1971,7 @@
 									<li><a href="account-statement.html"><span>Account Statement</span></a></li>
 									<li><a href="customers.html"><span>Customers</span></a></li>
 									<li><a href="billers.html"><span>Billers</span></a></li>
-									<li><a href="suppliers.html" class="active"><span>Suppliers</span></a></li>
+									<li><a href="suppliers.html"><span>Suppliers</span></a></li>
 									<li><a href="store-list.html"><span>Stores</span></a></li>
 									<li><a href="warehouse.html"><span>Warehouses</span></a></li>							
 								</ul>
@@ -2173,7 +2179,7 @@
 											<li><a href="localization-settings.html">Localization</a></li>
 											<li><a href="prefixes.html">Prefixes</a></li>
 											<li><a href="preference.html">Preference</a></li>
-											<li><a href="appearance.html" >Appearance</a></li>
+											<li><a href="appearance.html">Appearance</a></li>
 											<li><a href="social-authentication.html">Social Authentication</a></li>
 											<li><a href="language-settings.html">Language</a></li>
 										</ul>
@@ -2409,34 +2415,39 @@
 			</div>
 		</div>
 		<!-- /Two Col Sidebar -->
-
+			
 			<div class="page-wrapper">
 				<div class="content">
 					<div class="page-header">
 						<div class="add-item d-flex">
 							<div class="page-title">
-								<h4>Suppliers</h4>
-								<h6>Manage your suppliers</h6>
+								<h4 class="fw-bold">Product List</h4>
+								<h6>Manage your products</h6>
 							</div>
 						</div>
-						<ul class="table-top-head">							
-							<li class="me-2">
-								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf"><img src="assets/img/icons/pdf.svg" alt="img"></a>
+						<ul class="table-top-head">
+							<li>
+								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf"><img src="/assets/img/icons/pdf.svg" alt="img"></a>
 							</li>
-							<li class="me-2">
-								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Excel"><img src="assets/img/icons/excel.svg" alt="img"></a>
+							<li>
+								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Excel"><img src="/assets/img/icons/excel.svg" alt="img"></a>
 							</li>
-							<li class="me-2">
+							<li>
 								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh"><i class="ti ti-refresh"></i></a>
 							</li>
-							<li class="me-2">
+							<li>
 								<a data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header"><i class="ti ti-chevron-up"></i></a>
 							</li>
 						</ul>
 						<div class="page-btn">
-							<a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add-supplier"><i class="ti ti-circle-plus me-1"></i>Add Supplier</a>
+							<a href="add-product.html" class="btn btn-primary"><i class="ti ti-circle-plus me-1"></i>Add Product</a>
+						</div>	
+						<div class="page-btn import">
+							<a href="#" class="btn btn-secondary color" data-bs-toggle="modal" data-bs-target="#view-notes"><i
+								data-feather="download" class="me-1"></i>Import Product</a>
 						</div>
 					</div>
+					
 					<!-- /product list -->
 					<div class="card">
 						<div class="card-header d-flex align-items-center justify-content-between flex-wrap row-gap-3">
@@ -2446,16 +2457,41 @@
 								</div>
 							</div>
 							<div class="d-flex table-dropdown my-xl-auto right-content align-items-center flex-wrap row-gap-3">
-								<div class="dropdown">
+								<div class="dropdown me-2">
 									<a href="javascript:void(0);" class="dropdown-toggle btn btn-white btn-md d-inline-flex align-items-center" data-bs-toggle="dropdown">
-										 Status
+										Category
 									</a>
 									<ul class="dropdown-menu  dropdown-menu-end p-3">
 										<li>
-											<a href="javascript:void(0);" class="dropdown-item rounded-1">Active</a>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Computers</a>
 										</li>
 										<li>
-											<a href="javascript:void(0);" class="dropdown-item rounded-1">Inactive</a>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Electronics</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Shoe</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Electronics</a>
+										</li>
+									</ul>
+								</div>
+								<div class="dropdown">
+									<a href="javascript:void(0);" class="dropdown-toggle btn btn-white btn-md d-inline-flex align-items-center" data-bs-toggle="dropdown">
+										Brand
+									</a>
+									<ul class="dropdown-menu  dropdown-menu-end p-3">
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Lenovo</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Beats</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Nike</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);" class="dropdown-item rounded-1">Apple</a>
 										</li>
 									</ul>
 								</div>
@@ -2472,12 +2508,14 @@
 													<span class="checkmarks"></span>
 												</label>
 											</th>
-											<th>Code</th>
-											<th>Supplier</th>
-											<th>Email</th>
-											<th>Phone</th>
-											<th>Country</th>
-											<th>Status</th>
+											<th>SKU </th>
+											<th>Product Name</th>
+											<th>Category</th>
+											<th>Brand</th>
+											<th>Price</th>
+											<th>Unit</th>
+											<th>Qty</th>
+											<th>Created By</th>
 											<th class="no-sort"></th>
 										</tr>
 									</thead>
@@ -2489,744 +2527,216 @@
 													<span class="checkmarks"></span>
 												</label>
 											</td>
-											<td>SU001</td>
+											<td>PT001 </td>
 											<td>
 												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-01.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Apex Computers</a></p>
-													</div>
+													<a href="javascript:void(0);" class="avatar avatar-md me-2">
+														<img src="/assets/img/products/stock-img-01.png" alt="product">
+													</a>
+													<a href="javascript:void(0);">Lenovo IdeaPad 3 </a>
+												</div>												
+											</td>							
+											<td>Computers</td>
+											<td>Lenovo</td>
+											<td>$600</td>
+											<td>Pc</td>
+											<td>100</td>
+											<td>
+												<div class="d-flex align-items-center">
+													<a href="javascript:void(0);" class="avatar avatar-sm me-2">
+														<img src="/assets/img/users/user-30.jpg" alt="product">
+													</a>
+													<a href="javascript:void(0);">James Kirwin</a>
 												</div>
-											</td>
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b5d4c5d0cdd6dad8c5c0c1d0c7c6f5d0cdd4d8c5d9d09bd6dad8">[email&#160;protected]</a>						
-											</td>
-											<td>+15964712634</td>
-											<td>
-												Germany
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
 											</td>
 											<td class="action-table-data">
 												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
+													<a class="me-2 edit-icon  p-2" href="product-details.html">
 														<i data-feather="eye" class="feather-eye"></i>
 													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
+													<a class="me-2 p-2" href="edit-product.html" >
 														<i data-feather="edit" class="feather-edit"></i>
 													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
+													<a data-bs-toggle="modal" data-bs-target="#delete-modal" class="p-2" href="javascript:void(0);">
 														<i data-feather="trash-2" class="feather-trash-2"></i>
 													</a>
 												</div>
-											</td>
-										</tr>									
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU002</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-02.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Beats Headphones</a></p>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c7a5a2a6b3b4afa2a6a3b7afa8a9a287a2bfa6aab7aba2e9a4a8aa">[email&#160;protected]</a>								
-											</td>
-											<td>+16372895190 </td>
-											<td>
-												Japan
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
 											</td>
 										</tr>
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU003</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-03.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Dazzle Shoes</a></p>
-													</div>
-												</div>
-											</td>											
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ffbfee5e5f3faecf7f0faecdffae7fef2eff3fab1fcf0f2">[email&#160;protected]</a>								
-											</td>
-											<td>+17589201739 </td>
-											<td>
-												USA
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU004</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-04.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Best Accessories</a></p>
-													</div>
-												</div>
-											</td>										
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a2c0c7d1d6c3c1c1c7d1d1cdd0cbc7d1e2c7dac3cfd2cec78cc1cdcf">[email&#160;protected]</a>								
-											</td>
-											<td>+18934092467 </td>
-											<td>
-												Austria
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU005</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-05.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">A-Z Store</a></p>
-													</div>
-												</div>
-											</td>											
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6a0b5810191e05180f2a0f120b071a060f44090507">[email&#160;protected]</a>								
-											</td>
-											<td>+12568749035 </td>
-											<td>
-												Turkey
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU006</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-06.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Hatimi Hardwares</a></p>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6a020b1e030703020b180e1d0b180f2a0f120b071a060f44090507">[email&#160;protected]</a>								
-											</td>
-											<td>+19054674627 </td>
-											<td>
-												Mexico
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU007</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-07.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Aesthetic Bags</a></p>
-													</div>
-												</div>
-											</td>											
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c9a8acbabda1acbda0aaaba8aeba89acb1a8a4b9a5ace7aaa6a4">[email&#160;protected]</a>							
-											</td>
-											<td>+18943670365 </td>
-											<td>
-												France
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU008</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-08.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Alpha Mobiles</a></p>
-													</div>
-												</div>
-											</td>										
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5d3c312d353c30323f3431382e1d38253c302d3138733e3230">[email&#160;protected]</a>							
-											</td>
-											<td>+16473894103 </td>
-											<td>
-												Greece
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU009</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-09.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Sigma Chairs</a></p>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bac9d3ddd7dbd9d2dbd3c8fadfc2dbd7cad6df94d9d5d7">[email&#160;protected]</a>						
-											</td>
-											<td>+17590274536 </td>
-											<td>
-												Italy
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>	
-										<tr>
-											<td>
-												<label class="checkboxs">
-													<input type="checkbox">
-													<span class="checkmarks"></span>
-												</label>
-											</td>
-											<td>SU010</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<a href="#" class="avatar avatar-md"><img src="assets/img/supplier/supplier-10.png" class="img-fluid rounded-2" alt="img"></a>
-													<div class="ms-2">
-														<p class="text-gray-9 mb-0"><a href="#">Zenith Bags</a></p>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="https://dreamspos.dreamstechnologies.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dca6b9b2b5a8b4bebdbbaf9cb9a4bdb1acb0b9f2bfb3b1">[email&#160;protected]</a>					
-											</td>
-											<td>+12564098473 </td>
-											<td>
-												China
-											</td>
-											<td>
-												<span class="badge badge-success d-inline-flex align-items-center badge-xs">
-													<i class="ti ti-point-filled me-1"></i>Active
-												</span>
-											</td>
-											<td class="action-table-data">
-												<div class="edit-delete-action">
-													<a class="me-2 p-2" href="#">
-														<i data-feather="eye" class="feather-eye"></i>
-													</a>
-													<a class="me-2 p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#edit-supplier">
-														<i data-feather="edit" class="feather-edit"></i>
-													</a>
-													<a class="p-2" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#delete-modal">
-														<i data-feather="trash-2" class="feather-trash-2"></i>
-													</a>
-												</div>
-												
-											</td>
-										</tr>	
+									
 									</tbody>
 								</table>
 							</div>
 						</div>
 					</div>
 					<!-- /product list -->
-					
 				</div>
 				<div class="footer d-sm-flex align-items-center justify-content-between border-top bg-white p-3">
-					<p class="mb-0">2014 - 2025 &copy; DreamsPOS. All Right Reserved</p>
-					<p>Designed &amp; Developed by <a href="javascript:void(0);" class="text-primary">Dreams</a></p>
-				</div>
+                    <p class="mb-0 text-gray-9">2014 - 2025 &copy; DreamsPOS. All Right Reserved</p>
+                    <p>Designed &amp; Developed by <a href="javascript:void(0);" class="text-primary">Dreams</a></p>
+                </div>
 			</div>
         </div>
 		<!-- /Main Wrapper -->
 
-		<!-- Add Supplier -->
-		<div class="modal fade" id="add-supplier">
+		<!-- Import Product -->
+		<div class="modal fade" id="view-notes">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
-					<div class="modal-header">
-						<div class="page-title">
-							<h4>Add Supplier</h4>
-						</div>
-						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<form action="https://dreamspos.dreamstechnologies.com/html/template/suppliers.html">
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="new-employee-field">
-										<div class="profile-pic-upload mb-2">
-											<div class="profile-pic">
-												<span><i data-feather="plus-circle" class="plus-down-add"></i>Add Image</span>
+					<div class="page-wrapper-new p-0">
+						<div class="content">
+							<div class="modal-header">
+								<div class="page-title">
+									<h4>Import Product</h4>
+								</div>
+								<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form action="https://dreamspos.dreamstechnologies.com/html/template/product-list.html">
+								
+									<div class="row">
+										<div class="col-12">
+											<div class="mb-3">
+												<label>Product<span class="ms-1 text-danger">*</span></label>
+												<select class="select">
+													<option>Select</option>
+													<option>Bold V3.2</option>
+													<option>Nike Jordan</option>
+													<option>Iphone 14 Pro</option>
+												</select>
 											</div>
-											<div class="mb-0">
-												<div class="image-upload mb-2">
+										</div>
+										<div class="col-sm-6 col-12">
+											<div class="mb-3">
+												<label>Category<span class="ms-1 text-danger">*</span></label>
+												<select class="select">
+													<option>Select</option>
+													<option>Laptop</option>
+													<option>Electronics</option>
+													<option>Shoe</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-6 col-12">
+											<div class="mb-3">
+												<label>Sub Category<span class="ms-1 text-danger">*</span></label>
+												<select class="select">
+													<option>Select</option>
+													<option>Lenovo</option>
+													<option>Bolt</option>
+													<option>Nike</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-lg-12 col-sm-6 col-12">
+											<div class="row">
+												<div>
+													<div class="modal-footer-btn download-file">
+														<a href="javascript:void(0)" class="btn btn-submit">Download Sample File</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="mb-3 image-upload-down">
+												<label class="form-label">Upload CSV File</label>
+												<div class="image-upload download">
 													<input type="file">
 													<div class="image-uploads">
-														<h4>Upload Image</h4>
-													</div>
-												</div>
-												<p>JPEG, PNG up to 2 MB</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="mb-3">
-										<label class="form-label">First Name <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="mb-3">
-										<label class="form-label">Last Name <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
-									</div>
-								</div>	
-								<div class="col-lg-12">
-									<div class="mb-3">
-										<label class="form-label">Email <span class="text-danger">*</span></label>
-										<input type="email" class="form-control">
-									</div>
-								</div>								
-								<div class="col-lg-12">
-									<div class="mb-3">
-										<label class="form-label">Phone <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
-									</div>
-								</div>									
-								<div class="col-lg-12">
-									<div class="mb-3">
-										<label class="form-label">Address <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
-									</div>
-								</div>
-								<div class="col-lg-6 col-sm-10 col-10">
-									<div class="mb-3">
-										<label class="form-label">City <span class="text-danger">*</span></label>
-										<select class="select">
-											<option>Select</option>
-											<option>Varrel</option>
-											<option>Los Angels</option>
-											<option>Munich</option>											
-										</select>
-									</div>
-								</div>
-								<div class="col-lg-6 col-sm-10 col-10">
-									<div class="mb-3">
-										<label class="form-label">State <span class="text-danger">*</span></label>
-										<select class="select">
-											<option>Select</option>
-											<option>Bavaria</option>
-											<option>New York City</option>
-											<option>California</option>											
-										</select>
-									</div>
-								</div>
-								<div class="col-lg-6 col-sm-10 col-10">
-									<div class="mb-3">
-										<label class="form-label">Country <span class="text-danger">*</span></label>
-										<select class="select">
-											<option>Select</option>
-											<option>Germany</option>
-											<option>Mexico</option>
-											<option>United States</option>											
-										</select>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="mb-3">
-										<label class="form-label">Postal Code <span class="text-danger">*</span></label>
-										<input type="text" class="form-control">
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="mb-0">
-										<div class="status-toggle modal-status d-flex justify-content-between align-items-center">
-											<span class="status-label">Status</span>
-											<input type="checkbox" id="users5" class="check" checked>
-											<label for="users5" class="checktoggle mb-0"></label>
-										</div>
-									</div>	
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn me-2 btn-secondary" data-bs-dismiss="modal">Cancel</button>
-							<button type="submit" class="btn btn-primary">Add Supplier</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<!-- /Add Supplier -->
-
-		<!-- Edit Supplier -->
-		<div class="modal fade" id="edit-supplier">
-			<div class="modal-dialog modal-dialog-centered">
-				<div class="modal-content">
-					<div class="content">
-						<div class="modal-header">
-							<div class="page-title">
-								<h4>Edit Supplier</h4>
-							</div>
-							<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<form action="https://dreamspos.dreamstechnologies.com/html/template/suppliers.html">
-							<div class="modal-body">
-								<div class="row">
-									<div class="col-lg-12">
-										<div class="new-employee-field">
-											<div class="profile-pic-upload edit-pic">
-												<div class="profile-pic">
-													<span><img src="assets/img/supplier/edit-supplier.jpg" alt="Img"></span>
-													<div class="close-img">
-														<i data-feather="x" class="info-img"></i>
-													</div>
-												</div>
-												<div class="mb-0">
-													<div class="image-upload mb-0">
-														<input type="file">
-														<div class="image-uploads">
-															<h4>Change Image</h4>
-														</div>
+														<img src="/assets/img/download-img.png" alt="img">
+														<h4>Drag and drop a <span>file to upload</span></h4>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="mb-3">
-											<label class="form-label">First Name <span class="text-danger">*</span></label>
-											<input type="text" class="form-control" value="Apex">
-										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="mb-3">
-											<label class="form-label">Last Name <span class="text-danger">*</span></label>
-											<input type="text" class="form-control" value="Computers">
-										</div>
-									</div>
-									<div class="col-lg-12">
-										<div class="mb-3">
-											<label class="form-label">Email <span class="text-danger">*</span></label>
-											<input type="email" class="form-control" value="carlevans@example.com">
-										</div>
-									</div>								
-									<div class="col-lg-12">
-										<div class="mb-3">
-											<label class="form-label">Phone <span class="text-danger">*</span></label>
-											<input type="text" class="form-control" value="+15964712634">
-										</div>
-									</div>									
-									<div class="col-lg-12">
-										<div class="mb-3">
-											<label class="form-label">Address <span class="text-danger">*</span></label>
-											<input type="text" class="form-control" value="46 Perry Street">
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-10 col-10">
-										<div class="mb-3">
-											<label class="form-label">City <span class="text-danger">*</span></label>
-											<select class="select">
-												<option>Select</option>
-												<option>Varrel</option>
-												<option selected>Los Angels</option>
-												<option>Munich</option>												
-											</select>
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-10 col-10">
-										<div class="mb-3">
-											<label class="form-label">State <span class="text-danger">*</span></label>
-											<select class="select">
-												<option>Select</option>
-												<option>Bavaria</option>
-												<option>New York City</option>
-												<option selected>California</option>												
-											</select>
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-10 col-10">
-										<div class="mb-3">
-											<label class="form-label">Country <span class="text-danger">*</span></label>
-											<select class="select">
-												<option>Select</option>
-												<option>Germany</option>
-												<option>Mexico</option>
-												<option selected>United States</option>												
-											</select>
-										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="mb-3">
-											<label class="form-label">Postal Code <span class="text-danger">*</span></label>
-											<input type="text" class="form-control" value="10176">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="mb-0">
-											<div class="status-toggle modal-status d-flex justify-content-between align-items-center">
-												<span class="status-label">Status</span>
-												<input type="checkbox" id="users6" class="check" checked>
-												<label for="users6" class="checktoggle mb-0"></label>
+										<div class="col-lg-12 col-sm-6 col-12">
+											<div class="mb-3">
+												<label class="form-label">Created by<span class="ms-1 text-danger">*</span></label>
+												<input type="text" class="form-control">
 											</div>
-										</div>	
+										</div>
 									</div>
-								</div>																
+									<div class="row">
+									<div class="col-lg-12">
+										<div class="mb-3 mb-3">
+											<label class="form-label">Description</label>
+											<textarea class="form-control"></textarea>
+											<p class="mt-1">Maximum 60 Characters</p>
+										</div>
+									</div>
+								</div>
+								</form>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn me-2 btn-secondary" data-bs-dismiss="modal">Cancel</button>
-								<button type="submit" class="btn btn-primary">Save Changes</button>
+								<button type="button" class="btn me-2 btn-secondary fs-13 fw-medium p-2 px-3 shadow-none" data-bs-dismiss="modal">Cancel</button>
+								<button type="submit" class="btn btn-primary fs-13 fw-medium p-2 px-3">Submit</button>
 							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /Edit Supplier -->
-		  
-		<!-- Delete Modal -->
-		<div class="modal fade" id="delete-modal">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content p-5">
-                    <div class="modal-body text-center p-0">
-						<span class="rounded-circle d-inline-flex p-2 bg-danger-transparent mb-2"><i class="ti ti-trash fs-24 text-danger"></i></span>
-						<h4 class="fs-20 text-gray-9 fw-bold mb-2 mt-1">Delete Supplier</h4>
-						<p class="text-gray-6 mb-0 fs-16">Are you sure you want to delete supplier?</p>	
-						<div class="d-flex justify-content-center mt-3">
-							<a class="btn me-2 btn-secondary fs-13 fw-medium p-2 px-3 shadow-none" data-bs-dismiss="modal">Cancel</a>
-							<a href="suppliers.html" class="btn btn-primary fs-13 fw-medium p-2 px-3">Yes Delete</a>
-						</div>											
-					</div>					
-                </div>
-            </div>
-        </div>
-		<!-- /Delete Modal -->
-		 
-	
+		<!-- /Import Product -->
+
+		<!-- delete modal -->
+			<div class="modal fade" id="delete-modal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="page-wrapper-new p-0">
+						<div class="content p-5 px-3 text-center">
+								<span class="rounded-circle d-inline-flex p-2 bg-danger-transparent mb-2"><i class="ti ti-trash fs-24 text-danger"></i></span>
+								<h4 class="fs-20 text-gray-9 fw-bold mb-2 mt-1">Delete Product</h4>
+								<p class="text-gray-6 mb-0 fs-16">Are you sure you want to delete product?</p>
+								<div class="modal-footer-btn mt-3 d-flex justify-content-center">
+									<button type="button" class="btn me-2 btn-secondary fs-13 fw-medium p-2 px-3 shadow-none" data-bs-dismiss="modal">Cancel</button>
+									<button type="submit" class="btn btn-primary fs-13 fw-medium p-2 px-3">Yes Delete</button>
+								</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		
 		<!-- jQuery -->
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+        <script src="/assets/js/jquery-3.7.1.min.js" ></script>
+
+		<!-- Bootstrap Core JS -->
+		<script src="/assets/js/bootstrap.bundle.min.js" ></script>
 
         <!-- Feather Icon JS -->
-		<script src="assets/js/feather.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<script src="/assets/js/feather.min.js" ></script>
 
 		<!-- Slimscroll JS -->
-		<script src="assets/js/jquery.slimscroll.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<script src="/assets/js/jquery.slimscroll.min.js" ></script>
 
 		<!-- Datatable JS -->
-		<script src="assets/js/jquery.dataTables.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-		<script src="assets/js/dataTables.bootstrap5.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<script src="/assets/js/jquery.dataTables.min.js" ></script>
+		<script src="/assets/js/dataTables.bootstrap5.min.js" ></script>
 
-		<!-- Datetimepicker JS -->
-		<script src="assets/js/moment.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-		<script src="assets/js/bootstrap-datetimepicker.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-		
-		<!-- Bootstrap Core JS -->
-        <script src="assets/js/bootstrap.bundle.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<!-- Summernote JS -->
+		<script src="/assets/plugins/summernote/summernote-bs4.min.js" ></script>
 
 		<!-- Select2 JS -->
-		<script src="assets/plugins/select2/js/select2.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-		
+		<script src="/assets/plugins/select2/js/select2.min.js" ></script>
+
+		<!-- Datetimepicker JS -->
+		<script src="/assets/js/moment.min.js" ></script>
+		<script src="/assets/js/bootstrap-datetimepicker.min.js" ></script>
+
+		<!-- Bootstrap Tagsinput JS -->
+		<script src="/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js" ></script>
+
 		<!-- Color Picker JS -->
-		<script src="assets/plugins/%40simonwep/pickr/pickr.es5.min.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
+		<script src="/assets/plugins/%40simonwep/pickr/pickr.es5.min.js" ></script>
 
 		<!-- Custom JS -->
-		<script src="assets/js/theme-colorpicker.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-		<script src="assets/js/script.js" type="4e4ce2f26973377f190d011d-text/javascript"></script>
-
+		<script src="/assets/js/theme-colorpicker.js" ></script>
+		<script src="/assets/js/script.js" ></script>
 	
-    <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4e4ce2f26973377f190d011d-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"93f77db4fbbe909f","version":"2025.4.0-1-g37f21b1","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"3ca157e612a14eccbb30cf6db6691c29","b":1}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from dreamspos.dreamstechnologies.com/html/template/suppliers.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 04:24:55 GMT -->
+<!-- Mirrored from dreamspos.dreamstechnologies.com/html/template/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 May 2025 05:43:49 GMT -->
 </html>

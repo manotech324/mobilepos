@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
+
     <title>@yield('title', 'Dreams POS - Inventory Management & Admin Dashboard')</title>
 
     <!-- Favicon -->
@@ -26,25 +27,28 @@
     <link rel="stylesheet" href="{{ asset('assets/plugins/tabler-icons/tabler-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/plugins/@simonwep/pickr/themes/nano.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-   <script src="{{ asset('assets/js/theme-script.js') }}" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>	
-
+    <link rel="stylesheet" href="{{ asset('assets/css/select2.css') }}">
+   
     @stack('styles')
 </head>
+
 <body>
     <div>
         @extends('layouts.sidebar')
-        
+
         <div class="main-content">
             @extends('layouts.navbar')
-            
+
             <main class="content-wrapper">
                 @yield('content')
             </main>
-            
+
         </div>
     </div>
 
     <!-- Scripts -->
+
+
     <script src="/assets/js/jquery-3.7.1.min.js"></script>
     <script src="/assets/js/feather.min.js"></script>
     <script src="/assets/js/jquery.slimscroll.min.js"></script>
@@ -60,14 +64,17 @@
     <script src="/assets/js/theme-colorpicker.js"></script>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/plugins/apexchart/apexcharts.min.js" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
-	<script src="/assets/plugins/apexchart/chart-data.js" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
+    <script src="/assets/plugins/apexchart/chart-data.js" type="bb4b1dbe6aa80fadf7e0cecd-text/javascript"></script>
+    <script src="/assets/js/select2.js"></script>
 
     <script src="{{ asset('assets/js/theme-script.js') }}"></script>
-    
+
     <!-- Remove or replace these with your actual analytics scripts -->
-    <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5e909a4b5c8ffb1777e93972-|49" defer></script>
+    <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="5e909a4b5c8ffb1777e93972-|49" defer></script>
     <script defer src="/assets/js/beacon.js"></script>
 
     @stack('scripts')
 </body>
+
 </html>
