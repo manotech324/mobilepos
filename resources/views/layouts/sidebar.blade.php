@@ -270,7 +270,7 @@
 							<ul>
 								<li><a href="customers.html"><i class="ti ti-users-group fs-16 me-2"></i><span>Customers</span></a></li>
 								<li><a href="billers.html"><i class="ti ti-user-up fs-16 me-2"></i><span>Billers</span></a></li>
-								<li><a href="suppliers.html"><i class="ti ti-user-dollar fs-16 me-2"></i><span>Suppliers</span></a></li>
+								<li><a href="{{route("supplier.index")}}"><i class="ti ti-user-dollar fs-16 me-2"></i><span>Suppliers</span></a></li>
 								<li><a href=""><i class="ti ti-home-bolt fs-16 me-2"></i><span>Stores</span></a></li>
 								<li><a href=""><i class="ti ti-archive fs-16 me-2"></i><span>Warehouses</span></a>
 								</li>
